@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-vlgblue mx-5 my-5">
+    <!-- Nav top -->
+    <div
+      class="lg:bg-white lg:rounded-2xl lg:p-10 lg:max-w-[630px] lg:w-1/2 lg:m-auto lg:mt-20"
+    >
+      <header class="flex justify-between mb-5">
+        <div>
+          <h1 class="font-bold">
+            Notifications
+            <span class="bg-blue text-vlgblue rounded-md px-2 py-0">3</span>
+          </h1>
+        </div>
+        <div>
+          <h1 class="text-dgblue cursor-pointer hover:text-blue">
+            Mark all as read
+          </h1>
+        </div>
+      </header>
+
+      <!-- Notification messages -->
+      <div class="text-dgblue">
+        <!-- Mark Webber message -->
+
+        <div class="flex gap-3 bg-vlgblue rounded-md p-2">
+          <div class="image">
+            <img src="/assets/images/avatar-mark-webber.webp" alt="" />
+          </div>
+          <div class="text-sm">
+            <span class="font-bold text-vdblue">Mark Webber</span> reacted to
+            your recent post
+            <span class="font-semibold hover:text-blue cursor-pointer"
+              >My first tournament today!</span
+            >&nbsp;&nbsp;
+            <span class="dot"></span>
+            <p class="text-gblue">1m ago</p>
+          </div>
+        </div>
+
+        <!-- Angela Gray message -->
+
+        <div class="flex gap-3 bg-vlgblue rounded-md p-2 my-3">
+          <div class="image">
+            <img src="/assets/images/avatar-angela-gray.webp" alt="" />
+          </div>
+          <div class="text-sm">
+            <span class="font-bold text-vdblue hover:text-blue cursor-pointer"
+              >Angela Gray </span
+            >followed you &nbsp;&nbsp;<span class="dot"></span>
+            <p class="text-gblue">5m ago</p>
+          </div>
+        </div>
+
+        <!-- Jacob Thompson -->
+
+        <div class="flex gap-3 bg-vlgblue rounded-md p-2 my-3">
+          <div class="image">
+            <img src="/assets/images/avatar-jacob-thompson.webp" alt="" />
+          </div>
+          <div class="text-sm">
+            <span class="font-bold text-vdblue">Jacob Thompson </span>has joined
+            your group
+            <span class="text-blue font-bold hover:text-blue cursor-pointer"
+              >Chess Club</span
+            >
+            &nbsp;&nbsp;<span class="dot"></span>
+            <p class="text-gblue">1 day ago</p>
+          </div>
+        </div>
+
+        <!-- Rizky Hasanuddin -->
+
+        <div class="flex gap-3 rounded-md p-2 my-3">
+          <div class="image">
+            <img src="/assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+          </div>
+          <div class="text-sm">
+            <span class="font-bold text-vdblue">Rizky Hasanuddin </span>sent you
+            a private message
+
+            <p class="text-gblue">5 days ago</p>
+          </div>
+        </div>
+        <div
+          class="border-2 rounded-md ml-16 px-4 py-3 -mt-3 hover:bg-lgblue1 cursor-pointer"
+        >
+          <p class="text-sm">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </p>
+        </div>
+
+        <!-- Kimberly Smith -->
+
+        <div class="flex gap-3 rounded-md p-2 my-3">
+          <div class="image">
+            <img src="/assets/images/avatar-kimberly-smith.webp" alt="" />
+          </div>
+          <div class="text-sm">
+            <span class="font-bold text-vdblue">Kimberly Smith </span>commented
+            on your picture
+
+            <p class="text-gblue">1 week ago</p>
+          </div>
+          <div class="image cursor-pointer">
+            <img src="/assets/images/image-chess.webp" alt="" />
+          </div>
+        </div>
+
+        <!-- Nathan Peterson -->
+
+        <div class="flex gap-3 rounded-md p-2">
+          <div class="image">
+            <img src="/assets/images/avatar-nathan-peterson.webp" alt="" />
+          </div>
+          <div class="text-sm">
+            <span class="font-bold text-vdblue">Nathan Peterson</span> reacted
+            to your recent post
+            <span class="font-semibold"
+              >5 end-game strategies to increase your win rate</span
+            >
+            <p class="text-gblue">2 weeks ago</p>
+          </div>
+        </div>
+
+        <!-- Anna Kim -->
+
+        <div class="flex gap-3 rounded-md p-2 my-3">
+          <div class="image">
+            <img src="/assets/images/avatar-anna-kim.webp" alt="" />
+          </div>
+          <div class="text-sm">
+            <span class="font-bold text-vdblue">Anna Kim </span> left the group
+            <span class="text-blue font-bold">Chess Club</span>
+
+            <p class="text-gblue">2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
